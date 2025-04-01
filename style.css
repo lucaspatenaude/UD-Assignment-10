@@ -1,3 +1,17 @@
+@font-face {
+	font-family: 'BungeeTint';
+	src: url('fonts/BungeeTint.ttf') format('truetype'); /* Correct format */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bytesized';
+	src: url('fonts/Bytesized.ttf') format('truetype'); /* Correct format */
+	font-weight: normal;
+	font-style: normal;
+}
+
 html {
 	font-family: "Arial", sans-serif;
 	color: white;
@@ -48,3 +62,12 @@ dt {
 	padding: 10px 0px;
 }
 
+/* --------------------------- *** Custom Fonts ***  --------------------------- */
+
+#BungeeTint {
+	font-family: 'BungeeTint';
+}
+
+#Bytesized {
+	font-family: 'Bytesized'; /* Apply the Bytesized font */
+}
