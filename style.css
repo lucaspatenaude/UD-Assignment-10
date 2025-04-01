@@ -1,19 +1,41 @@
-/* --------------------------- *** Personal Modifications ***  --------------------------- */
-
 html {
 	font-family: "Arial", sans-serif;
+	color: white;
+	background-color: #8e8e8e;
 }
 
-ul {
-	border: 2px solid goldenrod;
-	background-color: #464646;
-	color: white;
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
+
+.column {
+	flex: 1;
+	background-color: #464646;
+	margin: 10px;
+	padding: 10px 20px;
+	border: 4px solid #CFB87C;
+	border-radius: 8px;
+	box-sizing: border-box;
+	height: 97vh;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	color: #CFB87C;
+}
+
+/* --------------------------- *** List Modifications ***  --------------------------- */
 
 ol,
 ul {
 	padding: 10px 30px;
 	border-radius: 4px;
+	color: white;
+	background-color: #464646;
+	border: 2px solid #CFB87C;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0.8s, 0.5);
 }
 
 li {
@@ -21,49 +43,8 @@ li {
 }
 
 dt {
+	color: #CFB87C;
 	font-size: 1.3rem;
 	padding: 10px 0px;
 }
 
-/* --------------------------- Style for Task #1  --------------------------- */
-
-h2 {
-	color: purple;
-}
-
-p {
-	color: gray;
-}
-
-/* --------------------------- Style for Task #2  --------------------------- */
-
-/* ul {
-  border: 2px solid orange;
-} */
-
-ol {
-	border: 2px solid purple;
-}
-
-/* ol, ul {
-  padding: 5px 20px;
-  border-radius: 4px;
-} */
-
-/* --------------------------- Style for Task #3  --------------------------- */
-
-h1 {
-	font-size: 2rem;
-	margin: 0;
-	color: green;
-}
-
-dl {
-	color: gray;
-	margin: 0.5em 0;
-}
-
-dt {
-	font-weight: bold;
-	color: purple;
-}
